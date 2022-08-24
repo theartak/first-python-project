@@ -36,3 +36,4 @@ def returnall():
 print(hello())
 print(returnall())
 print(message.upper())
+print(len(message))
