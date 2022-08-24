@@ -59,10 +59,12 @@ Here's the receipt for your order:
 
 print(email.format(name))
 
+receipt = '1234-5678-9010-0100'
+
 email_email = f"""
 Hello {name}, how are you doing?
 Here's the receipt for your order:
-1234-5678-9010-0100
+{receipt}
 """
 
 print(email_email)
