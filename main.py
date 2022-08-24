@@ -4,6 +4,7 @@ name, age = "Artak", 25
 PI = 3.14
 numbers = [1, 2, 3, 4]
 isArtakAdult = True
+message = 'This message is sponsored by Raid: Shadow Legends'
 
 """
 Multiline comment
@@ -34,3 +35,4 @@ def returnall():
 
 print(hello())
 print(returnall())
+print(message.upper())
