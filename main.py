@@ -29,12 +29,12 @@ def hello() -> str:
     return "hello"
 
 
-def returnall():
+def return_all():
     return name, age, isArtakAdult
 
 
 print(hello())
-print(returnall())
+print(return_all())
 print(message.upper())
 print(len(message))
 print(name == "Artak")
@@ -51,6 +51,7 @@ Can you feel me?
 
 print(comment)
 
+# Print email using format
 email = """
 Hello {}, how are you doing?
 Here's the receipt for your order:
@@ -59,6 +60,7 @@ Here's the receipt for your order:
 
 print(email.format(name))
 
+# Print email using f""
 receipt = '1234-5678-9010-0100'
 
 email_email = f"""
@@ -68,3 +70,13 @@ Here's the receipt for your order:
 """
 
 print(email_email)
+
+
+# Print email with function
+
+
+def print_email():
+    return email_email
+
+
+print(print_email())
