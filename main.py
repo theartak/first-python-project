@@ -40,3 +40,29 @@ print(len(message))
 print(name == "Artak")
 print(isArtakAdult != False)
 print(age > 18)
+print("mess" in message)
+
+comment = """
+Hey you
+Out there in the cold
+Getting lonely, getting old
+Can you feel me?
+"""
+
+print(comment)
+
+email = """
+Hello {}, how are you doing?
+Here's the receipt for your order:
+1234-5678-9010-0100
+"""
+
+print(email.format(name))
+
+email_email = f"""
+Hello {name}, how are you doing?
+Here's the receipt for your order:
+1234-5678-9010-0100
+"""
+
+print(email_email)
