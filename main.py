@@ -1,3 +1,5 @@
+import keyword
+
 name, age = "Artak", 25
 # name = "Artak"
 # age: int = 25
@@ -80,3 +82,5 @@ def print_email():
 
 
 print(print_email())
+
+print(keyword.kwlist)
