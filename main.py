@@ -94,3 +94,13 @@ print(hello_world[1:5])
 number_two = 4
 
 print(number_two ** 2)
+
+
+# Create class Age object and print age
+
+class Age:
+    age = 25
+
+
+ageObj = Age()
+print(ageObj.age)
